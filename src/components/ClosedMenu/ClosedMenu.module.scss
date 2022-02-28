@@ -1,0 +1,18 @@
+.close {
+  &__menu {
+    background-color: #13315e;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 100px;
+    cursor: pointer;
+    span {
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 24px;
+      letter-spacing: 0.12em;
+      color: #ffffff;
+      transform: rotate(-90deg);
+    }
+  }
+}
